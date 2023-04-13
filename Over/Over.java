@@ -15,6 +15,8 @@ class SuperObject {
 class SubObject extends SuperObject {
     public void paint() {
         System.out.print("2");
+        // super 키워드를 사용함으로써 정적바인딩을 통해서 부모의 draw() 메소드를 호출하고 있다.
+        
         super.draw();
         
     }
